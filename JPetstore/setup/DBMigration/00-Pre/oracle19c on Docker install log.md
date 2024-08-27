@@ -382,7 +382,7 @@ public class OracleConnectionTest {
         System.setProperty("oracle.jdbc.driver.T4CConnection.DEBUG", "true");
 
         String username = "jpetstore";
-        String password = "We1come!";
+        String password = "Mypassword";
         Properties props = new Properties();
         props.setProperty("user", username);
         props.setProperty("password", password);

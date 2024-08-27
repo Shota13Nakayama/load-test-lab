@@ -318,12 +318,12 @@ sudo mysql
 ```
 
 ```jpetstoreLogin
-CREATE USER 'jpetstore'@'localhost' IDENTIFIED BY 'We1come!';
+CREATE USER 'jpetstore'@'localhost' IDENTIFIED BY 'Mypassword';
 ```
 
 Oracle
 ```
-CREATE USER JPETSTORE IDENTIFIED BY "We1come!";
+CREATE USER JPETSTORE IDENTIFIED BY "Mypassword";
 ```
 
 ##### Build
