@@ -1,5 +1,7 @@
 # JPetStoreのデータベースをMySQLに移行する手順
 
+HSQL→ MySQL
+
 ## 1. MySQLのセットアップ
 
 1. MySQLをインストールし、起動していることを確認します。
@@ -11,7 +13,7 @@
    ```
 3. JPetStore用のユーザーを作成し、権限を付与します：
    ```sql
-   CREATE USER 'jpetstore'@'localhost' IDENTIFIED BY 'We1come!';
+   CREATE USER 'jpetstore'@'localhost' IDENTIFIED BY 'Mypassword';
    GRANT ALL PRIVILEGES ON jpetstore.* TO 'jpetstore'@'localhost';
    FLUSH PRIVILEGES;
    ```
